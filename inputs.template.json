@@ -1,8 +1,15 @@
 {
-  "QuantifyWorkflow.bams": "Array[File]",
-  "QuantifyWorkflow.output_counts_filename": "String",
-  "QuantifyWorkflow.git_commit_hash": "String",
-  "QuantifyWorkflow.git_repo_url": "String",
-  "QuantifyWorkflow.gtf": "File"
+  "BwaAndBedWorkflow.r1_files":"Array[File]",
+  "BwaAndBedWorkflow.r2_files":"Array[File]",
+  "BwaAndBedWorkflow.bwa_fa":"File",
+  "BwaAndBedWorkflow.bwa_amb":"File",
+  "BwaAndBedWorkflow.bwa_ann":"File",
+  "BwaAndBedWorkflow.bwa_bwt":"File",
+  "BwaAndBedWorkflow.bwa_fai":"File",
+  "BwaAndBedWorkflow.bwa_pac":"File",
+  "BwaAndBedWorkflow.bwa_sa":"File",
+  "BwaAndBedWorkflow.bwa_dict":"File",
+  "BwaAndBedWorkflow.git_repo_url":"String",
+  "BwaAndBedWorkflow.git_commit_hash":"String"
 }
 
