@@ -120,7 +120,7 @@ task align_reads {
 
         /opt/software/bwa-0.7.17/bwa mem -t 4 ${bwa_fa} ${r1} ${r2} \
         | /opt/software/samtools-1.10/samtools view -bht ${bwa_fa} - \
-        | /opt/software/samtools-1.10/samtools sort -o MM23-CT1.bam -;
+        | /opt/software/samtools-1.10/samtools sort -o ${sample_name}.bam -;
         /opt/software/samtools-1.10/samtools index ${sample_name}.bam
     }
 
