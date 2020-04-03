@@ -1,0 +1,8 @@
+{
+  "QuantifyWorkflow.bams": "Array[File]",
+  "QuantifyWorkflow.output_counts_filename": "String",
+  "QuantifyWorkflow.git_commit_hash": "String",
+  "QuantifyWorkflow.git_repo_url": "String",
+  "QuantifyWorkflow.gtf": "File"
+}
+
