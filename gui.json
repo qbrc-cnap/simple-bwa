@@ -15,6 +15,14 @@
 			}	
 		},
 		{
+			"target":"BwaAndBedWorkflow.suffix",
+			"display_element": {
+				"type": "text",
+				"label": "Fastq suffix:",
+				"description": "The suffix of the file, such as \"_R1_001.fastq.gz\""
+			}
+		},
+		{
 			"target": {
 				"target_ids": ["BwaAndBedWorkflow.bwa_fa", 
 					"BwaAndBedWorkflow.bwa_amb", 

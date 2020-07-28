@@ -3,6 +3,7 @@ workflow BwaAndBedWorkflow{
 
     Array[File] r1_files
     Array[File] r2_files
+    String suffix
     File bwa_fa
     File bwa_amb
     File bwa_ann
@@ -22,7 +23,8 @@ workflow BwaAndBedWorkflow{
         call trim_reads {
             input:
                 r1 = item.left,
-                r2 = item.right
+                r2 = item.right,
+                suffix = suffix
         } 
 
         call align_reads {
@@ -69,9 +71,10 @@ task trim_reads {
 
     File r1
     File r2
+    String suffix
 
     # Extract the samplename from the fastq filename
-    String sample_name = basename(r1, "_R1.fastq.gz")
+    String sample_name = basename(r1, suffix)
 
     Int disk_size = 200
 

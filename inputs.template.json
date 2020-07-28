@@ -10,6 +10,7 @@
   "BwaAndBedWorkflow.bwa_sa":"File",
   "BwaAndBedWorkflow.bwa_dict":"File",
   "BwaAndBedWorkflow.git_repo_url":"String",
-  "BwaAndBedWorkflow.git_commit_hash":"String"
+  "BwaAndBedWorkflow.git_commit_hash":"String",
+  "BwaAndBedWorkflow.suffix":"String"
 }
 
