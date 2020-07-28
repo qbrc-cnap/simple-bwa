@@ -23,8 +23,8 @@ def map_inputs(user, all_data, data_name, id_list):
     '''
     unmapped_data = all_data[data_name]
     
-    r1_suffix = '_R1.fastq.gz'
-    r2_suffix = '_R2.fastq.gz'
+    r1_suffix = '_R1_001.fastq.gz'
+    r2_suffix = '_R2_001.fastq.gz'
     r1_path_list = []
     r2_path_list = []
     for pk in unmapped_data:
